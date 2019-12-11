@@ -1,9 +1,9 @@
 var cacheName = 'poor-pwa';
 var filesToCache = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/js/main.js'
+    '/urpoor/',
+    '/urpoor/index.html',
+    '/urpoor/css/style.css',
+    '/urpoor/js/main.js'
 ];
 
 self.addEventListener('install', function (e) {
