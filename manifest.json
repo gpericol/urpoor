@@ -1,0 +1,34 @@
+{
+    "name": "URPoor",
+    "short_name": "URPoor",
+    "icons": [{
+        "src": "images/128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+    }, {
+        "src": "images/144.png",
+        "sizes": "144x144",
+        "type": "image/png"
+    }, {
+        "src": "images/152.png",
+        "sizes": "152x152",
+        "type": "image/png"
+    }, {
+        "src": "images/196.png",
+        "sizes": "196x196",
+        "type": "image/png"
+    }, {
+        "src": "images/256.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    }, {
+        "src": "images/512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "lang": "en-US",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "white",
+    "theme_color": "white"
+}
