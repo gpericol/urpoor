@@ -9,6 +9,7 @@ window.onload = () => {
 }
 
 function doMagic(){
+    let str = "Yeah, you are poor!"
     if(income.value != "" && time.value != "" && price.value != ""){
         let i = parseFloat(income.value);
         let t = parseFloat(time.value);
@@ -24,9 +25,9 @@ function doMagic(){
         let cost_per_hour = i/t;
         let hours_worked = p/cost_per_hour;
 
-        str = "You worked "+ Math.ceil(hours_worked) + " hours for this!"
-        txt.innerHTML = str;
+        str = "You worked "+ Math.ceil(hours_worked) + " hours for this!<br>~" + Math.round(hours_worked/8) + " days"   
     }
+    txt.innerHTML = str;
 }
 
 let income = document.getElementById("income");
