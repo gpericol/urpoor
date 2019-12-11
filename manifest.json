@@ -27,8 +27,8 @@
         "type": "image/png"
     }],
     "lang": "en-US",
-    "start_url": "/index.html",
-    "display": "standalone",
+    "start_url": "/urpoor/index.html",
+    "display": "fullscreen",
     "background_color": "white",
     "theme_color": "white"
 }
