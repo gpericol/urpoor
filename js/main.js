@@ -35,6 +35,6 @@ let time = document.getElementById("time");
 let price = document.getElementById("price");
 let txt = document.getElementById("txt");
 
-income.addEventListener("input", doMagic());
+income.addEventListener("input", doMagic);
 time.addEventListener("input", doMagic);
 price.addEventListener("input", doMagic);
