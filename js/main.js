@@ -2,7 +2,7 @@ window.onload = () => {
     'use strict';
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('./sw.js');
+            .register('./sw.js', {scope:'/urpoor/'});
     }
     document.getElementById("income").value = localStorage.getItem('i');
     document.getElementById("time").value = localStorage.getItem('t');
